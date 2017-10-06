@@ -58,6 +58,16 @@ namespace BTSSWeb.Migrations
                    }
 
             );
+
+            context.ApplicationGroups.AddOrUpdate(x=>x.ApplicationGroupID,
+                new ApplicationGroups()
+                {
+                    ApplicationGroupID=new Guid("750bf47a-0cd0-486a-a40a-04c4e2416f0f"),
+                    ApplicationID=1,
+                    GroupID=1
+                }
+                    
+            );
         }
     }
 }

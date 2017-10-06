@@ -109,3 +109,4 @@ Z:\DEV\Apps\BTSSWeb\BTAMUI\Solution\BTSSWeb\obj\Release\BTSSWeb.Migrations._003.
 Z:\DEV\Apps\BTSSWeb\BTAMUI\Solution\BTSSWeb\obj\Release\BTSSWeb.csproj.GenerateResource.Cache
 Z:\DEV\Apps\BTSSWeb\BTAMUI\Solution\BTSSWeb\obj\Release\BTSSWeb.dll
 Z:\DEV\Apps\BTSSWeb\BTAMUI\Solution\BTSSWeb\obj\Release\BTSSWeb.pdb
+Z:\DEV\Apps\BTSSWeb\BTAMUI\Solution\BTSSWeb\obj\Release\BTSSWeb.Migrations._004.resources

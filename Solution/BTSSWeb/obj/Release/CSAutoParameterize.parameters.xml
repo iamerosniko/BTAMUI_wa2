@@ -3,4 +3,7 @@
   <parameter name="BTSSWebContext-Web.config Connection String" description="BTSSWebContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=BTSSWebContext-20171003093417; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|BTSSWebContext-20171003093417.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="Z:\\DEV\\Apps\\BTSSWeb\\BTAMUI\\Solution\\BTSSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BTSSWebContext']/@connectionString" />
   </parameter>
+  <parameter name="BTSSWebContext_DatabasePublish-Web.config Connection String" description="BTSSWebContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="BTSSWebContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="Z:\\DEV\\Apps\\BTSSWeb\\BTAMUI\\Solution\\BTSSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BTSSWebContext_DatabasePublish']/@connectionString" />
+  </parameter>
 </parameters>

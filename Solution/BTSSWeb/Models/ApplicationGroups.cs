@@ -9,7 +9,7 @@ namespace BTSSWeb.Models
     public class ApplicationGroups
     {
         [Key]
-        public System.Guid applicationGroupID { get; set; }
+        public System.Guid ApplicationGroupID { get; set; }
         public int ApplicationID { get; set; }
         public int GroupID { get; set; }
     }

@@ -193,6 +193,10 @@
     <Compile Include="Migrations\201710051743007_003.Designer.cs">
       <DependentUpon>201710051743007_003.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710062010046_004.cs" />
+    <Compile Include="Migrations\201710062010046_004.Designer.cs">
+      <DependentUpon>201710062010046_004.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationGroupModules.cs" />
     <Compile Include="Models\ApplicationGroups.cs" />
@@ -202,8 +206,6 @@
     <Compile Include="Models\BTSSWebContext.cs" />
     <Compile Include="Models\Groups.cs" />
     <Compile Include="Models\ApplicationGroupTables.cs" />
-    <Compile Include="Models\InquiryResult.cs" />
-    <Compile Include="Models\Inquiry.cs" />
     <Compile Include="Models\Modules.cs" />
     <Compile Include="Models\Tables.cs" />
     <Compile Include="Models\Users.cs" />
@@ -275,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710051743007_003.resx">
       <DependentUpon>201710051743007_003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710062010046_004.resx">
+      <DependentUpon>201710062010046_004.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

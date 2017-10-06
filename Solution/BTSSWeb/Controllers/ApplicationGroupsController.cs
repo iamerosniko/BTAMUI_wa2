@@ -45,7 +45,7 @@ namespace BTSSWeb.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != applicationGroups.applicationGroupID)
+            if (id != applicationGroups.ApplicationGroupID)
             {
                 return BadRequest();
             }
@@ -88,7 +88,7 @@ namespace BTSSWeb.Controllers
             }
             catch (DbUpdateException)
             {
-                if (ApplicationGroupsExists(applicationGroups.applicationGroupID))
+                if (ApplicationGroupsExists(applicationGroups.ApplicationGroupID))
                 {
                     return Conflict();
                 }
@@ -98,7 +98,7 @@ namespace BTSSWeb.Controllers
                 }
             }
 
-            return CreatedAtRoute("DefaultApi", new { id = applicationGroups.applicationGroupID }, applicationGroups);
+            return CreatedAtRoute("DefaultApi", new { id = applicationGroups.ApplicationGroupID }, applicationGroups);
         }
 
         // DELETE: api/ApplicationGroups/5
@@ -128,7 +128,7 @@ namespace BTSSWeb.Controllers
 
         private bool ApplicationGroupsExists(Guid id)
         {
-            return db.ApplicationGroups.Count(e => e.applicationGroupID == id) > 0;
+            return db.ApplicationGroups.Count(e => e.ApplicationGroupID == id) > 0;
         }
     }
 }

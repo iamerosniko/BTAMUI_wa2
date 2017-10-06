@@ -11,5 +11,6 @@ namespace BTSSWeb.Models
         [Key]
         public int ModuleID { get; set; }
         public string ModuleName { get; set; }
+        public bool IsActive { get; set; }
     }
 }
