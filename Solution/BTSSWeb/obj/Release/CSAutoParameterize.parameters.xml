@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BTSSWebContext-Web.config Connection String" description="BTSSWebContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=BTSSWebContext-20171003093417; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|BTSSWebContext-20171003093417.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="Z:\\DEV\\Apps\\BTSSWeb\\BTAMUI\\Solution\\BTSSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BTSSWebContext']/@connectionString" />
+  </parameter>
+</parameters>
