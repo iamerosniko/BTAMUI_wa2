@@ -93,7 +93,7 @@ namespace BTSSWeb.Controllers
             Users users = await db.Users.FindAsync(id);
             if (users == null)
             {
-                return NotFound();
+                return Ok(users);
             }
 
             db.Users.Remove(users);
