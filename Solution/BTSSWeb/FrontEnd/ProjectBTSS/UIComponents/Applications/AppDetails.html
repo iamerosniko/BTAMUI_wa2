@@ -1,0 +1,182 @@
+﻿<br />
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <label><i class="fa fa-list"></i>&nbsp;Groups</label>
+                <a href="#grp_add" data-toggle="tab" id="btn_addgroup" class="btn btn-primary btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;Add Group</a>
+            </div>
+            <div class="panel-body container-fluid" style="height:600px; max-height:600px; overflow-y:auto;">
+                <div id="appgrouplist" class="input-sm">
+                    <!--app group list component here-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="tab-content">
+            <div id="grp_main" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <a href="#grp_prop" data-toggle="tab" class="close"><i class="fa fa-cog"></i></a>
+                                <h4><i class="fa fa-desktop"></i>&nbsp;AppName</h4>
+                                <h5>GroupName</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content">
+                    <div id="grp_details" class="tab-pane fade in active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="panel panel-warning">
+                                    <div class="panel-heading">
+                                        <label><i class="fa fa-list"></i>&nbsp;Tables</label>
+                                        <a href="#tab_prop" data-toggle="tab" class="btn btn-warning btn-sm pull-right" id="btn_addtable"><i class="fa fa-plus"></i>&nbsp;Add Table</a>
+                                    </div>
+                                    <div class="panel-body" style="height:480px; max-height:480px; overflow-y:auto;">
+                                        <div id="apptablelist" class="input-sm">
+                                            <!--app table list component here-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel panel-danger">
+                                    <div class="panel-heading">
+                                        <label><i class="fa fa-list"></i>&nbsp;Modules</label>
+                                        <a href="#mod_prop" data-toggle="tab" id="btn_adduser" class="btn btn-danger btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;Add Module</a>
+                                    </div>
+                                    <div class="panel-body" style="height:480px; max-height:480px; overflow-y:auto;">
+                                        <div id="appmodulelist" class="input-sm">
+                                            <!--app module list component here-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">
+                                        <label><i class="fa fa-list"></i>&nbsp;Users</label>
+                                        <a href="#usr_prop" data-toggle="tab" id="btn_adduser" class="btn btn-success btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;Add User</a>
+                                    </div>
+                                    <div class="panel-body" style="height:480px; max-height:480px; overflow-y:auto;">
+                                        <div id="appuserlist" class="input-sm">
+                                            <!--app user list component here-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grp_prop" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#grp_details" data-toggle="tab" class="btn btn-default btn-sm"><i class="fa fa-caret-left"></i>&nbsp;Go Back</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="grp_prop_view">
+                                    <!--group property view-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab_prop" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#grp_details" data-toggle="tab" class="btn btn-default btn-sm"><i class="fa fa-caret-left"></i>&nbsp;Go Back</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="tab_prop_view">
+                                    <!--group property view-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="mod_prop" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#grp_details" data-toggle="tab" class="btn btn-default btn-sm"><i class="fa fa-caret-left"></i>&nbsp;Go Back</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="mod_prop_view">
+                                    <!--module property view-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="usr_prop" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#grp_details" data-toggle="tab" class="btn btn-default btn-sm"><i class="fa fa-caret-left"></i>&nbsp;Go Back</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="usr_prop_view">
+                                    <!--user property view-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="grp_add" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="grp_prop_add">
+                            <!--group property add-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        //app group list
+        var $appgrouplist = $('#appgrouplist');
+        $appgrouplist.empty().load('../ProjectBTSS/UIComponents/Applications/AppGroupList.html');
+
+        //app table list
+        var $apptablelist = $('#apptablelist');
+        $apptablelist.empty().load('../ProjectBTSS/UIComponents/Applications/AppTableList.html');
+
+        //app module list
+        var $appmodulelist = $('#appmodulelist');
+        $appmodulelist.empty().load('../ProjectBTSS/UIComponents/Applications/AppModuleList.html');
+
+        //app user list
+        var $appuserlist = $('#appuserlist');
+        $appuserlist.empty().load('../ProjectBTSS/UIComponents/Applications/AppUserList.html');
+
+        var $grp_prop_add = $('#grp_prop_add');
+        $grp_prop_add.empty().load('../ProjectBTSS/UIComponents/Applications/AppGroupProperty.html');
+
+        var $grp_prop_view = $('#grp_prop_view');
+        $grp_prop_view.empty().load('../ProjectBTSS/UIComponents/Applications/AppGroupProperty.html');
+
+        var $tab_prop_view = $('#tab_prop_view');
+        $tab_prop_view.empty().load('../ProjectBTSS/UIComponents/Applications/AppTableProperty.html');
+
+        var $mod_prop_view = $('#mod_prop_view');
+        $mod_prop_view.empty().load('../ProjectBTSS/UIComponents/Applications/AppModuleProperty.html');
+
+        var $usr_prop_view = $('#usr_prop_view');
+        $usr_prop_view.empty().load('../ProjectBTSS/UIComponents/Applications/AppUserProperty.html');
+    });
+</script>

@@ -1,0 +1,89 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <!--if add group-->
+        <label><i class="fa fa-table"></i>&nbsp;Add Table</label>
+        <!--if group property-->
+        <label><i class="fa fa-cogs"></i>&nbsp;Table Property</label>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-12">
+            <label class="input-sm">Table</label>
+            <div class="input-group">
+                <input type="text" class="form-control input-sm" readonly />
+                <span class="input-group-btn">
+                    <button type="button" data-toggle="modal" data-target="#modal_search2" class="btn btn-default btn-sm">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+            <br />
+        </div>
+        <div class="col-md-12">
+            <input id="canget" type="checkbox" class="css-checkbox med"><label for="canget" class="css-label med elegant input-sm">Can Get</label>
+        </div>
+        <div class="col-md-12">
+            <input id="canpost" type="checkbox" class="css-checkbox med"><label for="canpost" class="css-label med elegant input-sm">Can Post</label>
+        </div>
+        <div class="col-md-12">
+            <input id="canput" type="checkbox" class="css-checkbox med"><label for="canput" class="css-label med elegant input-sm">Can Put</label>
+        </div>
+        <div class="col-md-12">
+            <input id="candelete" type="checkbox" class="css-checkbox med"><label for="candelete" class="css-label med elegant input-sm">Can Delete</label>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-group pull-right">
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i>&nbsp;Save</a>
+                    <a href="#" class="btn btn-danger btn-sm" hidden><i class="fa fa-remove"></i>&nbsp;Remove</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal_search2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4><i class="fa fa-search"></i>&nbsp;Search</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="search..." class="form-control input-sm" />
+                        <br />
+                    </div>
+                </div>
+
+                <table class="table table-bordered table-hover table-striped input-sm">
+                    <thead>
+                        <tr><th>Table ID</th><th>Table Name</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Test Table</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <ul class="pagination pagination-sm pull-right">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
