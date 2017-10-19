@@ -30,7 +30,7 @@ namespace BTSSWeb.Controllers
             Applications applications = await db.Applications.FindAsync(id);
             if (applications == null)
             {
-                return Ok(null);
+                return Ok();
             }
 
             return Ok(applications);
