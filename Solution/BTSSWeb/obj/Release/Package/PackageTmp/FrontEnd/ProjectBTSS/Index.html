@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Business Techonologies Security System</title>
+    <link rel="stylesheet" href="../ProjectBTSS/Css/bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/Checkboxes.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/textcss/normalize.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/textcss/set2.css" />
+    <link rel="stylesheet" href="../ProjectBTSS/Css/Site.css" />
+    <script src="../ProjectBTSS/Scripts/jquery-3.1.1.js"></script>
+    <script src="../ProjectBTSS/Css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <!--bootstrap navbar-->
+    <div class="navbar navbar-blue_2 navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.html">BTSS</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#p1" data-toggle="tab" class="lnk-applications"><i class="fa fa-desktop"></i>&nbsp;Applications</a></li>
+                    <li><a href="#p2" data-toggle="tab" class="lnk-maintenance"><i class="fa fa-wrench"></i>&nbsp;Maintenance</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-user-circle"></i>&nbsp;Hello, Albert Rick Martires!</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <!--content displays here-->
+    </div>
+    <script>
+        $(function () {
+            //container
+            var $cont = $('.main-body');
+            //load content to container
+            $cont.load('../ProjectBTSS/UIComponents/Applications/Applications.html');
+            //$cont.load('../ProjectBTSS/UIComponents/Common/NoAccess.html');
+            
+            //link applications
+            var $lnk_applications = $('.lnk-applications');
+            $lnk_applications.click(function () {
+                $cont.fadeOut(50).empty();
+                $cont.load('../ProjectBTSS/UIComponents/Applications/Applications.html').fadeIn(300);
+            });
+
+            //link maintenance
+            var $lnk_maintenance = $('.lnk-maintenance');
+            $lnk_maintenance.click(function () {
+                $cont.fadeOut(50).empty();
+                $cont.load('../ProjectBTSS/UIComponents/Maintenance/Maintenance.html').fadeIn(300);
+            });
+        });
+    </script>
+</body>
+</html>

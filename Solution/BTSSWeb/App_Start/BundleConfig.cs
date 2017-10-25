@@ -9,7 +9,8 @@ namespace BTSSWeb
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                       "~/Content/styles.bundle.css"));
+                       "~/Content/styles.*",
+                       "~/Content/site.css"));
 
 
             bundles.Add(new ScriptBundle("~/Scripts/js").Include(

@@ -1,0 +1,150 @@
+﻿<div class="tab-content">
+    <div id="usr_default" class="tab-pane fade in active">
+        <div class="col-md-12">
+            <!--tool bar-->
+            <div class="row">
+                <div class="col-md-9">
+                    <a href="#" class="btn btn-primary btn-sm" data-toggle="tab" data-target="#usr_editor"><i class="fa fa-plus"></i>&nbsp;New Record</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" placeholder="search..." class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <!--table-->
+            <div class="row">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover input-sm">
+                        <thead>
+                            <tr>
+                                <th>User Id</th>
+                                <th>User Name</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Middle Name</th>
+                                <th>Is Active</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>bermoyj</td>
+                                <td>Joyce</td>
+                                <td>Bermoy</td>
+                                <td>L</td>
+                                <td>Yes</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-default btn-xs" data-toggle="tab" data-target="#usr_editor" title="Edit"><i class="fa fa-edit"></i></a>
+                                        <a href="#" class="btn btn-default btn-xs" title="Delete"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--pagination-->
+            <div class="row">
+                <div class="pull-right">
+                    <ul class="pagination pagination-sm">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="usr_editor" class="tab-pane fade">
+        <div class="col-md-12">
+            <!--return button-->
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="btn btn-default btn-sm" data-toggle="tab" data-target="#usr_default"><i class="fa fa-caret-left"></i>&nbsp;Go Back</a>
+                </div>
+            </div>
+            <br />
+            <!--header-->
+            <div class="row">
+                <!--for example you are in adding mode, span.add should be displayed while span.edit will be hidden-->
+                <h4>
+                    <span class="add"><i class="fa fa-plus"></i>&nbsp;New Record</span>
+                    <span class="edit"><i class="fa fa-edit"></i>&nbsp;Edit Details</span>
+                </h4>
+            </div>
+            <br />
+            <!--fields-->
+            <div class="row">
+                <label class="col-md-2 control-label">User Id</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <label class="col-md-2 control-label">User Name</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <label class="col-md-2 control-label">First Name</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <label class="col-md-2 control-label">Middle Name</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <label class="col-md-2 control-label">Last Name</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <label class="col-md-2 control-label">Is Active</label>
+                <div class="col-md-4">
+                    <label class="switch">
+                        <input type="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <div class="save-bar">
+            <!--save bar component here-->
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        //save bar container
+        var $save_bar = $('.save-bar');
+        //load content to save bar container
+        $save_bar.load('../ProjectBTSS/UIComponents/Common/SaveBar.html');
+    });
+</script>

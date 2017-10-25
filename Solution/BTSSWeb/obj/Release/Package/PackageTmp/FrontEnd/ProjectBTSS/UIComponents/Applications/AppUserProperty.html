@@ -1,0 +1,77 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <!--if add group-->
+        <label><i class="fa fa-user"></i>&nbsp;Add User</label>
+        <!--if group property-->
+        <label><i class="fa fa-cogs"></i>&nbsp;User Property</label>
+        <button type="button" class="close">&times;</button>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-12">
+            <label class="input-sm">User</label>
+            <div class="input-group">
+                <input type="text" class="form-control input-sm" readonly />
+                <span class="input-group-btn">
+                    <button type="button" data-toggle="modal" data-target="#modal_search4" class="btn btn-default btn-sm">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-12">
+                <!--if add group-->
+                <a href="#" class="btn btn-primary btn-sm pull-right"><i class="fa fa-floppy-o"></i>&nbsp;Save</a>
+                <!--if group property-->
+                <a href="#" class="btn btn-danger btn-sm pull-right" hidden><i class="fa fa-remove"></i>&nbsp;Remove</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal_search4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4><i class="fa fa-search"></i>&nbsp;Search</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="search..." class="form-control input-sm" />
+                        <br />
+                    </div>
+                </div>
+
+                <table class="table table-bordered table-hover table-striped input-sm">
+                    <thead>
+                        <tr><th>User ID</th><th>User Name</th><th>Last Name</th><th>First Name</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th>1</th><th>bermoyj</th><th>Bermoy</th><th>Joyce</th></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <ul class="pagination pagination-sm pull-right">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

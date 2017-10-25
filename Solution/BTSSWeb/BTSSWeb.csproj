@@ -220,6 +220,7 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\fontawesome-webfont.acf3dcb7ff752b5296ca.svg" />
     <Content Include="Content\glyphicons-halflings-regular.89889688147bd7575d63.svg" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\styles.bundle.css" />
     <Content Include="favicon.ico" />
     <Content Include="FrontEnd\ProjectBTSS\Css\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
@@ -281,14 +282,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="Content\fontawesome-webfont.674f50d287a8c48dc19b.eot" />
-    <Content Include="Content\fontawesome-webfont.af7ae505a9eed503f8b8.woff2" />
-    <Content Include="Content\fontawesome-webfont.b06871f281fee6b241d6.ttf" />
-    <Content Include="Content\fontawesome-webfont.fee66e712a8a08eef580.woff" />
-    <Content Include="Content\glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
-    <Content Include="Content\glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
-    <Content Include="Content\glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
-    <Content Include="Content\glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
     <Content Include="FrontEnd\ProjectBTSS\Css\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
     <Content Include="FrontEnd\ProjectBTSS\Css\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
     <Content Include="FrontEnd\ProjectBTSS\Css\bootstrap-3.3.7-dist\css\bootstrap.css.map" />
@@ -330,12 +323,26 @@
     <Content Include="FrontEnd\ProjectBTSS\Css\font-awesome-4.7.0\scss\_screen-reader.scss" />
     <Content Include="FrontEnd\ProjectBTSS\Css\font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="FrontEnd\ProjectBTSS\Css\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="Content\fontawesome-webfont.674f50d287a8c48dc19b.eot" />
+    <Content Include="Content\fontawesome-webfont.af7ae505a9eed503f8b8.woff2" />
+    <Content Include="Content\fontawesome-webfont.b06871f281fee6b241d6.ttf" />
+    <Content Include="Content\fontawesome-webfont.fee66e712a8a08eef580.woff" />
+    <Content Include="Content\glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
+    <Content Include="Content\glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
+    <Content Include="Content\glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
+    <Content Include="Content\glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
     <None Include="Properties\PublishProfiles\BTAMWeb - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\BTSSWeb - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\BTSSWeb - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\BTSSWeb - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\BTSSWeb.pubxml" />
-    <Content Include="Web.config" />
+    <Content Include="Scripts\inline.bundle.js" />
+    <Content Include="Scripts\main.bundle.js" />
+    <Content Include="Scripts\polyfills.bundle.js" />
+    <Content Include="Scripts\scripts.bundle.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

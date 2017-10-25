@@ -155,7 +155,6 @@ C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\bin\System.Web.WebPages.xml
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\bin\System.Web.WebPages.Deployment.xml
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\bin\Antlr3.Runtime.pdb
-C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\obj\Debug\BTSSWeb.csprojResolveAssemblyReference.cache
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\obj\Debug\BTSSWeb.Migrations._000.resources
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\obj\Debug\BTSSWeb.Migrations._001.resources
 C:\Users\alverer\Desktop\BTAMUI_wa2\Solution\BTSSWeb\obj\Debug\BTSSWeb.Migrations._002.resources
